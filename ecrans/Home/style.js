@@ -26,6 +26,20 @@ const dashboardStyles = StyleSheet.create({
         height: 50,
         borderRadius: 50/2,
     },
+    //stymiser la flatlist
+    scrollableList: {
+        paddingHorizontal: PADDING.horizontal,
+        paddingVertical: PADDING.vertical,
+    },
+    scrollableListItem: {
+        flexDirection: 'row',
+        paddingHorizontal: 15,
+        paddingVertical: 10,
+        margin: 10,
+        borderRadius: 20,
+        backgroundColor: 'white',
+        elevation: 4,
+    },
 });
 
 export default dashboardStyles;
